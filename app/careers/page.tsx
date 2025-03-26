@@ -514,8 +514,8 @@ export default function Careers() {
         </div>
       </section> */}
 
-      {/* CTA Section */}
-      <section className="bg-gray-100 py-24 text-white">
+      {/* CTA Section .*/}
+      {/* <section className="bg-gray-100 py-24 text-white">
   <div className="container mx-auto px-4">
     <div className="mx-auto max-w-3xl text-center">
       <h2 className="mb-6 text-3xl font-bold tracking-tight md:text-4xl">
@@ -541,7 +541,7 @@ export default function Careers() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
     </div>
   )
 }

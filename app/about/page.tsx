@@ -12,6 +12,7 @@ export default function OurStory() {
       <Timeline />
      
       <Values />
+      
       <CTASection />
     </div>
   )

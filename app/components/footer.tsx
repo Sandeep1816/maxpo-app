@@ -25,24 +25,24 @@ export default function Footer() {
               Redefining the business event landscape by creating dynamic trade shows, conferences, and immersive
               experiences.
             </p>
-            <div className="flex gap-4">
-              <Link href="#" className="rounded-full bg-gray-800 p-2 transition-colors hover:bg-gray-700">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="#" className="rounded-full bg-gray-800 p-2 transition-colors hover:bg-gray-700">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="rounded-full bg-gray-800 p-2 transition-colors hover:bg-gray-700">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link href="#" className="rounded-full bg-gray-800 p-2 transition-colors hover:bg-gray-700">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-            </div>
+        <div className="flex gap-4">
+  <Link href="https://www.facebook.com/maxpoexhibitions" className="rounded-full bg-white/10 p-2 transition hover:bg-white/20 border border-white/20">
+    <Facebook className="h-5 w-5 text-white" />
+    <span className="sr-only">Facebook</span>
+  </Link>
+  <Link href="https://x.com/i/flow/login?redirect_after_login=%2Fmaxpoae" className="rounded-full bg-white/10 p-2 transition hover:bg-white/20 border border-white/20">
+    <Twitter className="h-5 w-5 text-white" />
+    <span className="sr-only">Twitter</span>
+  </Link>
+  <Link href="https://www.instagram.com/maxpoexhibitions/" className="rounded-full bg-white/10 p-2 transition hover:bg-white/20 border border-white/20">
+    <Instagram className="h-5 w-5 text-white" />
+    <span className="sr-only">Instagram</span>
+  </Link>
+  <Link href="#" className="rounded-full bg-white/10 p-2 transition hover:bg-white/20 border border-white/20">
+    <Linkedin className="h-5 w-5 text-white" />
+    <span className="sr-only">LinkedIn</span>
+  </Link>
+</div>
           </div>
 
           <div>
@@ -106,7 +106,7 @@ export default function Footer() {
               <Input
                 type="email"
                 placeholder="Your email address"
-                className="border-gray-700 bg-gray-800 text-white placeholder:text-gray-500"
+                className="border-gray-100 bg-gray-800 text-white placeholder:text-gray-500"
               />
               <Button className="w-full bg-white text-black hover:bg-gray-200">Subscribe</Button>
             </div>
@@ -128,4 +128,3 @@ export default function Footer() {
     </footer>
   )
 }
-
